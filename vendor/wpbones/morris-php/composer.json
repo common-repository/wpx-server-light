@@ -1,0 +1,39 @@
+{
+  "name": "wpbones/morris-php",
+  "version": "1.0.11",
+  "homepage": "https://github.com/wpbones/morris-php",
+  "license": "MIT",
+  "type": "library",
+  "description": "WPBones fluent PHP helper classes for morris.js",
+  "keywords": [
+    "morris",
+    "charts",
+    "php",
+    "javascript"
+  ],
+  "authors": [
+    {
+    "name": "Giovambattista Fazioli",
+    "email": "giovambattista.fazioli@gmail.com",
+    "homepage" : "http://undolog.com"
+    }    
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wpbones/morris-php.git"
+  },
+  "support": {
+    "email": "giovambattista.fazioli@gmail.com",
+    "issues": "https://github.com/wpbones/morris-php/issues"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+       "WPXServerLight\\MorrisPHP\\": "src/"
+    }
+  },
+  "prefer-stable" : true,
+  "require": {
+    "php": ">=5.2.4"
+  }
+}
